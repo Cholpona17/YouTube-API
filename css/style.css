@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -26,13 +31,27 @@ main {
 
 #inp {
     width: 40%;
+    height: 53px;
     font-size: 40px;
-    margin-left: 28%;
+}
+
+#btn img {
+    width: 50%;
 }
 
 #btn {
-    font-size: 40px;
+    width: 100px;
+    height: 55px;
+    padding-top: 2px;
+}
 
+.card img {
+    width: 100%;
+    border-radius: 30px;
+}
 
-
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
